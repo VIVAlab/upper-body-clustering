@@ -1,0 +1,19 @@
+.thumbnail p {
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+}
+
+#left {
+    float:left;
+    width: 100px; /* 64 px min*/
+    height: 100%;
+    overflow: scroll;
+}
+
+#right {
+    float:left;
+    width: 90%;
+}

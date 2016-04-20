@@ -59,5 +59,7 @@ Example :
 
     visualizer.py ./output/2015-11-26_12_50_00-13_49_59
     
-The result is written in the script's directory. It is an html page which
-shows results.
+The result is written in the script's directory. It is an html page which shows results.
+
+## Notes :
+All these tools require [scikit-learn](http://scikit-learn.org/stable/install.html) and python 2.7.

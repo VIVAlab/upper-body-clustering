@@ -1,6 +1,6 @@
 ## Description
 
-This tool is used to sort images with filename's syntax :
+This tool is the first part of the project. It is used to sort images with filename's syntax :
 
     epoch|cameraID|captureNumber|.jpg
 
@@ -50,7 +50,7 @@ the number of the `capture` and the others are `descriptors`.
 
 ## Requirement
 
-This script was tested on Windows 10 (x64) with python 2.7 (x86). 
+This tool requires python 2.7. 
 
 ## Notes
 

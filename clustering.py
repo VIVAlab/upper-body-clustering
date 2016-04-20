@@ -6,7 +6,7 @@ from lib._cluster import Cluster
 
 
 if len(argv) < 3:
-    print 'Bad arguments : clustering.py images_folder algorithm [arg1 arg2 ...]'
+    print 'Bad arguments : clustering.py images_folder algorithm [param1 param2 ...]'
     print 'images_folder : Folder containing images and info file.'
     print 'algorithm : Name fo the algorithm : kmeans, dbscan, birch or kmeans_dbscan_factor.'
     print 'For more information, please see doc folder.'

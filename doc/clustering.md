@@ -21,7 +21,7 @@ Example :
 
 This algorithm require one parameter, a number of cluster
 
-    clustering.py images_folder_ kmeans n_clusters_
+    clustering.py images_folder kmeans n_clusters
     
 Example :
 

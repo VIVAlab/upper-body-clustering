@@ -61,5 +61,5 @@ Example :
     
 The result is written in the script's directory. It is an html page which shows results.
 
-## Notes :
+## Notes
 All these tools require [scikit-learn](http://scikit-learn.org/stable/install.html) and python 2.7.

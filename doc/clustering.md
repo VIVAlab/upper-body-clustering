@@ -78,6 +78,10 @@ Usage :
     clustering.py ./output/2015-11-26_13_50_00-14_49_59 kmeans_dbscan_factor 0.5            (factor=0.5, eps=0.04, min_samples=12)
     clustering.py ./output/2015-11-26_13_50_00-14_49_59 kmeans_dbscan_factor 0.6 0.03       (factor=0.6, eps=0.03, min_samples=12)
     clustering.py ./output/2015-11-26_13_50_00-14_49_59 kmeans_dbscan_factor 0.6 0.02 10    (factor=0.6, eps=0.02, min_samples=10)
+ 
+## Result
+
+A file called `clusters.json` containing information about clustering is created in the `images_folder`.
     
 ## Requirement
 

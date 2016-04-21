@@ -32,7 +32,7 @@ At the end of this step, you should have some directories like this example :
     ./output/2015-11-26_15_50_00-16_49_59
     ./output/2015-11-26_16_50_00-17_49_59
   
-In every of these directories you can find a file `info.txt' containing all descriptors (see doc folder more information).
+In every of these directories you can find a file `info.txt` containing all descriptors (see doc folder more information).
     
 ## Second step : clustering your images
 

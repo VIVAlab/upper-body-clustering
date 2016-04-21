@@ -1,7 +1,7 @@
 ## Description
 
 This repository contains some tools to cluster data and analyze the results.
-Following few steps, you can easily apply clustering algorithms.
+Following few steps, you can easily apply clustering algorithms. If you have any question, do not hesitate to contact [me](mailto:leo@loza.ch).
 
 ## First step : organize and get descriptors
 

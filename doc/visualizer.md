@@ -15,8 +15,8 @@ Example :
     
 After execution, a html file is created in the `results` folder. You only have
 to open it in a browser to visualize the result. This file uses dependencies which
-are contained in the `resources` directory and shows images contained in the `images_folder`
-directory. That is the main reason you cannot move this file.
+are contained in the `resources` directory and shows images contained in the `images_folder`.
+That is the main reason you cannot move this file.
 
 ## Requirement
 

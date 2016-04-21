@@ -29,7 +29,7 @@ Example :
     
 ## [DBSCAN algorithm](https://en.wikipedia.org/wiki/DBSCAN)
 
-This algorithm have two optional parameters :
+This algorithm has two optional parameters :
 
   * eps (default value if not given : 0.04)
   * min_samples (default value if not given : 12)
@@ -45,7 +45,7 @@ Usage :
 
 ## [BIRCH algorithm](https://en.wikipedia.org/wiki/BIRCH)
 
-This algorithm have two optional parameters :
+This algorithm has two optional parameters :
 
   * branching_factor (default value if not given : 5)
   * threshold (default value if not given : 0.1)
@@ -60,7 +60,7 @@ Usage :
 
 ## K-means DBSCAN with factor
 
-This algorithm have three optional parameters :
+This algorithm has three optional parameters :
 
   * factor (default value if not given : 0.6)
   * eps (default value if not given : 0.04)

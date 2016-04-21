@@ -19,7 +19,7 @@ Example :
 
 ## [K-means clustering](https://en.wikipedia.org/wiki/K-means_clustering)
 
-This algorithm require one parameter, a number of cluster
+This algorithm requires one parameter, a number of cluster :
 
     clustering.py images_folder kmeans n_clusters
     

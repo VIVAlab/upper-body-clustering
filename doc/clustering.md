@@ -58,7 +58,7 @@ Usage :
     clustering.py ./output/2015-11-26_13_50_00-14_49_59 birch 3             (branching_factor=3, threshold=0.1)
     clustering.py ./output/2015-11-26_13_50_00-14_49_59 birch 4 0.2         (branching_factor=4, threshold=0.2)
 
-## [K-means DBSCAN with factor
+## K-means DBSCAN with factor
 
 This algorithm have three optional parameters :
 

@@ -21,7 +21,7 @@ Example :
   
 Note : In our situation, let "./output" as output directory. Be sure that the script's folder is the working dir.
 
-This step is the longer step, but once it is done, you do not have to do it again,
+This step is the longest, but once it is done, you do not have to do it again,
 only if you want to separate your files by another period.
 
 At the end of this step, you should have some directories like this example :

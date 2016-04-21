@@ -10,7 +10,7 @@ There are actually four implementations of clustering algorithms.
     clustering.py images_folder algorithm [param1 param2 ...]
     
   * images_folder : Folder containing images and info file.
-  * algorithm : Name fo the algorithm : kmeans, dbscan, birch or kmeans_dbscan_factor.
+  * algorithm : Name for the algorithm : kmeans, dbscan, birch or kmeans_dbscan_factor.
   * [param1 param2 ...] : Optional parameters for algorithm.
   
 Example :

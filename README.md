@@ -19,7 +19,7 @@ Example :
 
     organizer.py serviceTimer.exe images ./output 3600
   
-Note : In our situation, let "./output" as output directory. be sure that the script's folder is the working dir.
+Note : In our situation, let "./output" as output directory. Be sure that the script's folder is the working dir.
 
 This step is the longer step, but once it is done, you do not have to do it again,
 only if you want to separate your files by another period.

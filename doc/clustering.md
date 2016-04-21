@@ -50,7 +50,7 @@ This algorithm has two optional parameters :
   * branching_factor (default value if not given : 5)
   * threshold (default value if not given : 0.1)
   
-You can find more information [here](https://en.wikipedia.org/wiki/DBSCAN) about these parameters.
+You can find more information [here](https://en.wikipedia.org/wiki/BIRCH) about these parameters.
   
 Usage :
 

@@ -43,7 +43,7 @@ Usage :
     clustering.py ./output/2015-11-26_13_50_00-14_49_59 dbscan 0.03 11      (eps=0.03, min_samples=11)
     
 
-## [BIRCH algortihm](https://en.wikipedia.org/wiki/BIRCH)
+## [BIRCH algorithm](https://en.wikipedia.org/wiki/BIRCH)
 
 This algorithm have two optional parameters :
 

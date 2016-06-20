@@ -15,7 +15,9 @@ if not isfile(clusters_file_path):
     print("The file \"" + clusters_file_path + "\" does not exist.")
     exit()
 
-visualizer_file = join('results', basename(argv[1]) + '.html')
+filename = basename(argv[1]) if basename(argv[1]) else "output"
+
+visualizer_file = join('results', filename + '.html')
 generate_html(clusters_file_path, visualizer_file)
 print("\"" + visualizer_file + "\" generated.")
 

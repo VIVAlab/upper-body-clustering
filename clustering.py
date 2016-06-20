@@ -116,11 +116,14 @@ if algo_name == "kmeans_dbscan_factor":
         factor = float(argv[3])
         eps = float(argv[4])
         argv.append(0)
-    if algo_params_len == 2:
+    if algo_params_len == 3:
         factor = float(argv[3])
         eps = float(argv[4])
         min_samples = int(argv[5])
     if factor < 0:
+        print("The corrector value must be between 0 and 1.")
+        exit()
+	if factor > 1:
         print("The corrector value must be between 0 and 1.")
         exit()
     if eps < 0 or eps > 1:

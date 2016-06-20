@@ -97,7 +97,7 @@ if algo_name == "birch":
         n_clusters = float(argv[4])
     if threshold < 0:
         print("The min_sample value must be positive.")
-    clusters = cluster.split_dbscan(branching_factor, threshold)
+    clusters = cluster.split_birch(branching_factor, threshold)
 
 if algo_name == "kmeans_dbscan_factor":
     # Default values

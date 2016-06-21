@@ -6,7 +6,7 @@ from lib._cluster import Cluster
 
 
 if len(argv) < 3:
-    print 'Bad arguments : clustering.py images_folder algorithm [arg1 arg2 ...]'
+    print 'Bad arguments : clustering.py images_folder algorithm [param1 param2 ...]'
     print 'images_folder : Folder containing images and info file.'
     print 'algorithm : Name fo the algorithm : kmeans, dbscan, birch or kmeans_dbscan_factor.'
     print 'For more information, please see doc folder.'
@@ -97,7 +97,7 @@ if algo_name == "birch":
         n_clusters = float(argv[4])
     if threshold < 0:
         print("The min_sample value must be positive.")
-    clusters = cluster.split_dbscan(branching_factor, threshold)
+    clusters = cluster.split_birch(branching_factor, threshold)
 
 if algo_name == "kmeans_dbscan_factor":
     # Default values
@@ -116,11 +116,14 @@ if algo_name == "kmeans_dbscan_factor":
         factor = float(argv[3])
         eps = float(argv[4])
         argv.append(0)
-    if algo_params_len == 2:
+    if algo_params_len == 3:
         factor = float(argv[3])
         eps = float(argv[4])
         min_samples = int(argv[5])
     if factor < 0:
+        print("The corrector value must be between 0 and 1.")
+        exit()
+	if factor > 1:
         print("The corrector value must be between 0 and 1.")
         exit()
     if eps < 0 or eps > 1:

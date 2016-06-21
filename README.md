@@ -1,7 +1,7 @@
 ## Description
 
 This repository contains some tools to cluster data and analyze the results.
-Following few steps, you can easily apply clustering algorithms.
+Following few steps, you can easily apply clustering algorithms. If you have any question, do not hesitate to contact [me](mailto:leo@loza.ch).
 
 ## First step : organize and get descriptors
 
@@ -19,9 +19,9 @@ Example :
 
     organizer.py serviceTimer.exe images ./output 3600
   
-Note : In our situation, let "output" as output directory. be sure that the script's folder is the working dir.
+Note : In our situation, let "./output" as output directory. Be sure that the script's folder is the working dir.
 
-This step is the longer step, but once it is done, you do not have to do it again,
+This step is the longest, but once it is done, you do not have to do it again,
 only if you want to separate your files by another period.
 
 At the end of this step, you should have some directories like this example :
@@ -32,7 +32,7 @@ At the end of this step, you should have some directories like this example :
     ./output/2015-11-26_15_50_00-16_49_59
     ./output/2015-11-26_16_50_00-17_49_59
   
-In every of these directories you can find a file `info.txt' containing all descriptors (see doc folder more information).
+In every of these directories you can find a file `info.txt` containing all descriptors (see doc folder more information).
     
 ## Second step : clustering your images
 
@@ -59,5 +59,7 @@ Example :
 
     visualizer.py ./output/2015-11-26_12_50_00-13_49_59
     
-The result is written in the script's directory. It is an html page which
-shows results.
+The result is written in the script's directory. It is an html page which shows results.
+
+## Notes
+All these tools require [scikit-learn](http://scikit-learn.org/stable/install.html) and python 2.7.
